@@ -110,24 +110,5 @@ public class SkunkApp {
 		skunkApp();		
 	}
 	
-	/*
-	 * 	Goal: HAve a running program of skunk for multiple players
 
-		problem: 
-		    - Writing code that will all my game to give a turn to the next players
-		
-		Diagnosis:
-		    - The game should be able to cycle through one game of Skunk, and then set up for a second player.
-		    While retaining the previous players score to see who reaches 100 points first.
-		
-		Plan:
-		    - Checking if player reaches 100 points:    
-		        - A list that matches the number of players to keep track of the score each time a game of Skunk is played
-		        - Instead of existing the game it should break loop to all the next player turn until players play and 
-		        someone reaches 100
-		
-		Do:
-		    - Plan a full round of Skunk and then switch to the next player
-		    - keep track of score
-	 */
 }
